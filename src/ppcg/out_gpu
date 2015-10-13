@@ -1,0 +1,284 @@
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 0	|Time taken =  0.00000ms	|MFLOPS =  -nan	|sum: 8.183749e+09	|rms(A) = 8181702843.28	|sum(rep(A)) = 91076197
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 20	|Time taken =  48.98800ms	|MFLOPS =  65322.119703	|sum: 8.178121e+09	|rms(A) = 8176076724.63	|sum(rep(A)) = 127221728
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 40	|Time taken =  97.89800ms	|MFLOPS =  65374.164947	|sum: 8.175168e+09	|rms(A) = 8173124561.30	|sum(rep(A)) = 131055515
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 60	|Time taken =  146.55200ms	|MFLOPS =  65505.759048	|sum: 8.172886e+09	|rms(A) = 8170842591.71	|sum(rep(A)) = 134006996
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 80	|Time taken =  195.56100ms	|MFLOPS =  65452.723191	|sum: 8.170955e+09	|rms(A) = 8168912183.81	|sum(rep(A)) = 136976954
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 100	|Time taken =  244.19900ms	|MFLOPS =  65520.333826	|sum: 8.169250e+09	|rms(A) = 8167207888.41	|sum(rep(A)) = 140036485
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 120	|Time taken =  292.84800ms	|MFLOPS =  65563.022455	|sum: 8.167707e+09	|rms(A) = 8165664882.65	|sum(rep(A)) = 142281283
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 140	|Time taken =  341.70800ms	|MFLOPS =  65553.045290	|sum: 8.166286e+09	|rms(A) = 8164244480.09	|sum(rep(A)) = 145052728
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 160	|Time taken =  390.47000ms	|MFLOPS =  65562.015008	|sum: 8.164963e+09	|rms(A) = 8162921389.00	|sum(rep(A)) = 146927321
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 180	|Time taken =  439.10400ms	|MFLOPS =  65588.106690	|sum: 8.163719e+09	|rms(A) = 8161677993.59	|sum(rep(A)) = 149155061
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 200	|Time taken =  487.94000ms	|MFLOPS =  65581.833832	|sum: 8.162542e+09	|rms(A) = 8160501437.76	|sum(rep(A)) = 151067409
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 220	|Time taken =  536.62700ms	|MFLOPS =  65594.910431	|sum: 8.161422e+09	|rms(A) = 8159381996.05	|sum(rep(A)) = 152391123
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 240	|Time taken =  586.14600ms	|MFLOPS =  65512.687965	|sum: 8.160352e+09	|rms(A) = 8158312098.54	|sum(rep(A)) = 153830948
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 260	|Time taken =  634.33400ms	|MFLOPS =  65580.593189	|sum: 8.159326e+09	|rms(A) = 8157285715.04	|sum(rep(A)) = 154975623
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 280	|Time taken =  684.06400ms	|MFLOPS =  65490.948215	|sum: 8.158338e+09	|rms(A) = 8156297948.75	|sum(rep(A)) = 156161620
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 300	|Time taken =  732.03700ms	|MFLOPS =  65570.456138	|sum: 8.157384e+09	|rms(A) = 8155344758.34	|sum(rep(A)) = 156378145
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 320	|Time taken =  780.42500ms	|MFLOPS =  65605.279175	|sum: 8.156462e+09	|rms(A) = 8154422762.09	|sum(rep(A)) = 157372791
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 340	|Time taken =  829.72600ms	|MFLOPS =  65563.812632	|sum: 8.155568e+09	|rms(A) = 8153529096.24	|sum(rep(A)) = 157738684
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 360	|Time taken =  877.98000ms	|MFLOPS =  65605.139069	|sum: 8.154700e+09	|rms(A) = 8152661310.21	|sum(rep(A)) = 157975423
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 380	|Time taken =  926.81900ms	|MFLOPS =  65600.726787	|sum: 8.153856e+09	|rms(A) = 8151817287.71	|sum(rep(A)) = 158531344
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 400	|Time taken =  975.54600ms	|MFLOPS =  65604.287240	|sum: 8.153033e+09	|rms(A) = 8150995186.13	|sum(rep(A)) = 158537175
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 420	|Time taken =  1024.80900ms	|MFLOPS =  65573.194615	|sum: 8.152231e+09	|rms(A) = 8150193389.42	|sum(rep(A)) = 158587490
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 440	|Time taken =  1073.01400ms	|MFLOPS =  65609.581981	|sum: 8.151448e+09	|rms(A) = 8149410470.96	|sum(rep(A)) = 158707377
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 460	|Time taken =  1122.00900ms	|MFLOPS =  65596.621774	|sum: 8.150683e+09	|rms(A) = 8148645163.81	|sum(rep(A)) = 159170225
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 480	|Time taken =  1176.84300ms	|MFLOPS =  65259.342155	|sum: 8.149934e+09	|rms(A) = 8147896336.82	|sum(rep(A)) = 158985911
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 500	|Time taken =  1226.05900ms	|MFLOPS =  65249.714736	|sum: 8.149200e+09	|rms(A) = 8147162975.05	|sum(rep(A)) = 158713965
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 520	|Time taken =  1275.66400ms	|MFLOPS =  65220.935920	|sum: 8.148481e+09	|rms(A) = 8146444163.71	|sum(rep(A)) = 158640470
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 540	|Time taken =  1316.76100ms	|MFLOPS =  65615.552101	|sum: 8.147776e+09	|rms(A) = 8145739074.88	|sum(rep(A)) = 158314045
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 560	|Time taken =  1372.76800ms	|MFLOPS =  65269.586704	|sum: 8.147084e+09	|rms(A) = 8145046956.36	|sum(rep(A)) = 157811461
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 580	|Time taken =  1421.41700ms	|MFLOPS =  65286.963643	|sum: 8.146404e+09	|rms(A) = 8144367122.31	|sum(rep(A)) = 157682022
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 600	|Time taken =  1476.63700ms	|MFLOPS =  65012.592804	|sum: 8.145735e+09	|rms(A) = 8143698945.33	|sum(rep(A)) = 157408212
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 620	|Time taken =  1514.74400ms	|MFLOPS =  65489.614087	|sum: 8.145078e+09	|rms(A) = 8143041849.72	|sum(rep(A)) = 157199700
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 640	|Time taken =  1561.23400ms	|MFLOPS =  65589.142947	|sum: 8.144431e+09	|rms(A) = 8142395305.70	|sum(rep(A)) = 156677057
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 660	|Time taken =  1608.32000ms	|MFLOPS =  65658.575408	|sum: 8.143795e+09	|rms(A) = 8141758824.40	|sum(rep(A)) = 156564188
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 680	|Time taken =  1658.04100ms	|MFLOPS =  65619.607718	|sum: 8.143168e+09	|rms(A) = 8141131953.64	|sum(rep(A)) = 156428448
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 700	|Time taken =  1706.62100ms	|MFLOPS =  65626.756028	|sum: 8.142550e+09	|rms(A) = 8140514274.09	|sum(rep(A)) = 155875045
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 720	|Time taken =  1756.34700ms	|MFLOPS =  65590.683390	|sum: 8.141941e+09	|rms(A) = 8139905396.11	|sum(rep(A)) = 155555296
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 740	|Time taken =  1803.81700ms	|MFLOPS =  65638.587506	|sum: 8.141340e+09	|rms(A) = 8139304956.80	|sum(rep(A)) = 155436648
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 760	|Time taken =  1852.66200ms	|MFLOPS =  65635.285875	|sum: 8.140748e+09	|rms(A) = 8138712617.57	|sum(rep(A)) = 155500653
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 780	|Time taken =  1904.80500ms	|MFLOPS =  65518.517644	|sum: 8.140163e+09	|rms(A) = 8138128061.85	|sum(rep(A)) = 154878611
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 800	|Time taken =  1950.33000ms	|MFLOPS =  65629.919039	|sum: 8.139586e+09	|rms(A) = 8137550993.17	|sum(rep(A)) = 154751627
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 820	|Time taken =  1999.12800ms	|MFLOPS =  65628.614076	|sum: 8.139016e+09	|rms(A) = 8136981133.44	|sum(rep(A)) = 154653535
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 840	|Time taken =  2048.24500ms	|MFLOPS =  65617.150292	|sum: 8.138453e+09	|rms(A) = 8136418221.32	|sum(rep(A)) = 154073810
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 860	|Time taken =  2096.99900ms	|MFLOPS =  65617.580171	|sum: 8.137896e+09	|rms(A) = 8135862010.91	|sum(rep(A)) = 153999612
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 880	|Time taken =  2145.04400ms	|MFLOPS =  65639.679186	|sum: 8.137347e+09	|rms(A) = 8135312270.44	|sum(rep(A)) = 153092529
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 900	|Time taken =  2193.49000ms	|MFLOPS =  65648.806240	|sum: 8.136803e+09	|rms(A) = 8134768781.22	|sum(rep(A)) = 153752917
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 920	|Time taken =  2241.86100ms	|MFLOPS =  65659.735372	|sum: 8.136265e+09	|rms(A) = 8134231336.57	|sum(rep(A)) = 153862555
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 940	|Time taken =  2290.63700ms	|MFLOPS =  65658.591911	|sum: 8.135734e+09	|rms(A) = 8133699740.96	|sum(rep(A)) = 153141841
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 960	|Time taken =  2338.35300ms	|MFLOPS =  65687.259366	|sum: 8.135208e+09	|rms(A) = 8133173809.15	|sum(rep(A)) = 153205988
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 980	|Time taken =  2387.51800ms	|MFLOPS =  65674.897530	|sum: 8.134687e+09	|rms(A) = 8132653365.48	|sum(rep(A)) = 152087449
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 1000	|Time taken =  2437.12500ms	|MFLOPS =  65651.125814	|sum: 8.134172e+09	|rms(A) = 8132138243.15	|sum(rep(A)) = 152352853
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 1000	|Time taken =  2443.57600ms	|MFLOPS =  65477.807934	|sum: 8.134172e+09	|rms(A) = 8132138243.15	|sum(rep(A)) = 152352853
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 1100	|Time taken =  2681.63700ms	|MFLOPS =  65631.552667	|sum: 8.131670e+09	|rms(A) = 8129637162.85	|sum(rep(A)) = 151425335
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 1200	|Time taken =  2924.72400ms	|MFLOPS =  65647.220045	|sum: 8.129281e+09	|rms(A) = 8127248263.73	|sum(rep(A)) = 150533820
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 1300	|Time taken =  3173.76100ms	|MFLOPS =  65537.386085	|sum: 8.126990e+09	|rms(A) = 8124957795.50	|sum(rep(A)) = 150207775
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 1400	|Time taken =  3415.23900ms	|MFLOPS =  65588.381955	|sum: 8.124786e+09	|rms(A) = 8122754602.31	|sum(rep(A)) = 148893972
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 1500	|Time taken =  3656.14300ms	|MFLOPS =  65642.946679	|sum: 8.122660e+09	|rms(A) = 8120629485.62	|sum(rep(A)) = 149047058
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 1600	|Time taken =  3898.55400ms	|MFLOPS =  65665.372341	|sum: 8.120605e+09	|rms(A) = 8118574755.13	|sum(rep(A)) = 149138543
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 1700	|Time taken =  4150.60400ms	|MFLOPS =  65532.630913	|sum: 8.118614e+09	|rms(A) = 8116583904.11	|sum(rep(A)) = 149413098
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 1800	|Time taken =  4389.72200ms	|MFLOPS =  65607.799309	|sum: 8.116681e+09	|rms(A) = 8114651369.36	|sum(rep(A)) = 149611632
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 1900	|Time taken =  4629.46200ms	|MFLOPS =  65666.377648	|sum: 8.114801e+09	|rms(A) = 8112772350.34	|sum(rep(A)) = 150054724
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 2000	|Time taken =  4871.95900ms	|MFLOPS =  65681.997734	|sum: 8.112971e+09	|rms(A) = 8110942670.47	|sum(rep(A)) = 150849527
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 2100	|Time taken =  5121.97700ms	|MFLOPS =  65599.669815	|sum: 8.111186e+09	|rms(A) = 8109158669.30	|sum(rep(A)) = 151442955
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 2200	|Time taken =  5359.68400ms	|MFLOPS =  65675.513706	|sum: 8.109444e+09	|rms(A) = 8107417117.49	|sum(rep(A)) = 152562707
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 2300	|Time taken =  5606.41700ms	|MFLOPS =  65639.070372	|sum: 8.107742e+09	|rms(A) = 8105715148.95	|sum(rep(A)) = 153936506
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 2400	|Time taken =  5843.67900ms	|MFLOPS =  65712.028330	|sum: 8.106077e+09	|rms(A) = 8104050206.13	|sum(rep(A)) = 154561279
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 2500	|Time taken =  6091.13200ms	|MFLOPS =  65669.238493	|sum: 8.104446e+09	|rms(A) = 8102419995.45	|sum(rep(A)) = 156390622
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 2600	|Time taken =  6339.14200ms	|MFLOPS =  65624.022936	|sum: 8.102848e+09	|rms(A) = 8100822450.68	|sum(rep(A)) = 156952370
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 2700	|Time taken =  6620.77600ms	|MFLOPS =  65249.149042	|sum: 8.101281e+09	|rms(A) = 8099255702.60	|sum(rep(A)) = 158504533
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 2800	|Time taken =  6862.52500ms	|MFLOPS =  65282.093690	|sum: 8.099743e+09	|rms(A) = 8097718053.67	|sum(rep(A)) = 159700430
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 2900	|Time taken =  7108.36800ms	|MFLOPS =  65275.179901	|sum: 8.098233e+09	|rms(A) = 8096207956.76	|sum(rep(A)) = 160567025
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 3000	|Time taken =  7307.93000ms	|MFLOPS =  65682.074130	|sum: 8.096748e+09	|rms(A) = 8094723997.08	|sum(rep(A)) = 161142295
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 3100	|Time taken =  7555.09400ms	|MFLOPS =  65651.069332	|sum: 8.095289e+09	|rms(A) = 8093264876.92	|sum(rep(A)) = 162622589
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 3200	|Time taken =  7797.18700ms	|MFLOPS =  65664.707028	|sum: 8.093853e+09	|rms(A) = 8091829402.46	|sum(rep(A)) = 163017757
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 3300	|Time taken =  8038.72300ms	|MFLOPS =  65682.074130	|sum: 8.092440e+09	|rms(A) = 8090416472.54	|sum(rep(A)) = 164667124
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 3400	|Time taken =  8293.12000ms	|MFLOPS =  65596.542676	|sum: 8.091048e+09	|rms(A) = 8089025068.83	|sum(rep(A)) = 165259309
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 3500	|Time taken =  8525.94200ms	|MFLOPS =  65681.891807	|sum: 8.089677e+09	|rms(A) = 8087654247.45	|sum(rep(A)) = 166456517
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 3600	|Time taken =  8775.05300ms	|MFLOPS =  65640.629179	|sum: 8.088325e+09	|rms(A) = 8086303131.47	|sum(rep(A)) = 167282939
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 3700	|Time taken =  9012.82600ms	|MFLOPS =  65684.170537	|sum: 8.086993e+09	|rms(A) = 8084970904.52	|sum(rep(A)) = 168586761
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 3800	|Time taken =  9257.64300ms	|MFLOPS =  65675.464046	|sum: 8.085678e+09	|rms(A) = 8083656805.04	|sum(rep(A)) = 168733029
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 3900	|Time taken =  9500.69700ms	|MFLOPS =  65679.391733	|sum: 8.084381e+09	|rms(A) = 8082360121.31	|sum(rep(A)) = 170021728
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 4000	|Time taken =  9743.31200ms	|MFLOPS =  65686.082925	|sum: 8.083101e+09	|rms(A) = 8081080186.95	|sum(rep(A)) = 171244873
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 4100	|Time taken =  9987.01200ms	|MFLOPS =  65685.312083	|sum: 8.081837e+09	|rms(A) = 8079816377.02	|sum(rep(A)) = 171804583
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 4200	|Time taken =  10229.42700ms	|MFLOPS =  65692.829129	|sum: 8.080588e+09	|rms(A) = 8078568104.47	|sum(rep(A)) = 172397328
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 4300	|Time taken =  10478.89200ms	|MFLOPS =  65655.796433	|sum: 8.079355e+09	|rms(A) = 8077334817.03	|sum(rep(A)) = 173196931
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 4400	|Time taken =  10723.29500ms	|MFLOPS =  65651.462540	|sum: 8.078136e+09	|rms(A) = 8076115994.36	|sum(rep(A)) = 174302963
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 4500	|Time taken =  10960.93800ms	|MFLOPS =  65687.808835	|sum: 8.076930e+09	|rms(A) = 8074911145.54	|sum(rep(A)) = 175132634
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 4600	|Time taken =  11208.27000ms	|MFLOPS =  65665.798558	|sum: 8.075739e+09	|rms(A) = 8073719806.80	|sum(rep(A)) = 175869939
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 4700	|Time taken =  11449.02700ms	|MFLOPS =  65682.437468	|sum: 8.074560e+09	|rms(A) = 8072541539.46	|sum(rep(A)) = 176576988
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 4800	|Time taken =  11693.02600ms	|MFLOPS =  65680.175517	|sum: 8.073394e+09	|rms(A) = 8071375928.06	|sum(rep(A)) = 177802798
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 4900	|Time taken =  11933.98700ms	|MFLOPS =  65694.725493	|sum: 8.072241e+09	|rms(A) = 8070222578.68	|sum(rep(A)) = 178578678
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 5000	|Time taken =  12177.85100ms	|MFLOPS =  65693.035660	|sum: 8.071099e+09	|rms(A) = 8069081117.43	|sum(rep(A)) = 179011097
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 5100	|Time taken =  12427.38900ms	|MFLOPS =  65661.419305	|sum: 8.069969e+09	|rms(A) = 8067951189.02	|sum(rep(A)) = 180124931
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 5200	|Time taken =  12666.71300ms	|MFLOPS =  65683.970261	|sum: 8.068850e+09	|rms(A) = 8066832455.51	|sum(rep(A)) = 180751288
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 5300	|Time taken =  12920.33400ms	|MFLOPS =  65632.978219	|sum: 8.067742e+09	|rms(A) = 8065724595.15	|sum(rep(A)) = 181418582
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 5400	|Time taken =  13153.64200ms	|MFLOPS =  65685.229992	|sum: 8.066644e+09	|rms(A) = 8064627301.29	|sum(rep(A)) = 182041353
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 5500	|Time taken =  13396.70200ms	|MFLOPS =  65687.808835	|sum: 8.065557e+09	|rms(A) = 8063540281.44	|sum(rep(A)) = 182152655
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 5600	|Time taken =  13639.81300ms	|MFLOPS =  65690.050150	|sum: 8.064479e+09	|rms(A) = 8062463256.36	|sum(rep(A)) = 183253796
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 5700	|Time taken =  13880.80700ms	|MFLOPS =  65702.231866	|sum: 8.063412e+09	|rms(A) = 8061395959.22	|sum(rep(A)) = 183913437
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 5800	|Time taken =  14217.95600ms	|MFLOPS =  65269.578834	|sum: 8.062354e+09	|rms(A) = 8060338134.86	|sum(rep(A)) = 184162158
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 5900	|Time taken =  14460.69200ms	|MFLOPS =  65280.416732	|sum: 8.061305e+09	|rms(A) = 8059289539.08	|sum(rep(A)) = 185022080
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 6000	|Time taken =  14701.59500ms	|MFLOPS =  65299.037281	|sum: 8.060265e+09	|rms(A) = 8058249938.00	|sum(rep(A)) = 185395008
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 6100	|Time taken =  14859.71900ms	|MFLOPS =  65680.919000	|sum: 8.059234e+09	|rms(A) = 8057219107.44	|sum(rep(A)) = 186335016
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 6200	|Time taken =  15115.56600ms	|MFLOPS =  65627.711195	|sum: 8.058211e+09	|rms(A) = 8056196832.40	|sum(rep(A)) = 187546059
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 6300	|Time taken =  15369.19000ms	|MFLOPS =  65585.759562	|sum: 8.057197e+09	|rms(A) = 8055182906.51	|sum(rep(A)) = 188080925
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 6400	|Time taken =  15592.88500ms	|MFLOPS =  65670.977500	|sum: 8.056191e+09	|rms(A) = 8054177131.56	|sum(rep(A)) = 189060877
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 6500	|Time taken =  15829.14900ms	|MFLOPS =  65701.573723	|sum: 8.055193e+09	|rms(A) = 8053179317.09	|sum(rep(A)) = 189344499
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 6600	|Time taken =  16081.32100ms	|MFLOPS =  65666.247194	|sum: 8.054203e+09	|rms(A) = 8052189279.91	|sum(rep(A)) = 190066463
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 6700	|Time taken =  16321.17900ms	|MFLOPS =  65681.529502	|sum: 8.053220e+09	|rms(A) = 8051206843.77	|sum(rep(A)) = 190638759
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 6800	|Time taken =  16570.69600ms	|MFLOPS =  65658.074954	|sum: 8.052245e+09	|rms(A) = 8050231838.97	|sum(rep(A)) = 191384940
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 6900	|Time taken =  16817.45000ms	|MFLOPS =  65646.099736	|sum: 8.051277e+09	|rms(A) = 8049264102.06	|sum(rep(A)) = 192361565
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 7000	|Time taken =  17050.08400ms	|MFLOPS =  65688.825932	|sum: 8.050316e+09	|rms(A) = 8048303475.45	|sum(rep(A)) = 193128378
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 7100	|Time taken =  17296.74700ms	|MFLOPS =  65677.089455	|sum: 8.049362e+09	|rms(A) = 8047349807.22	|sum(rep(A)) = 193275862
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 7200	|Time taken =  17537.59300ms	|MFLOPS =  65687.463496	|sum: 8.048415e+09	|rms(A) = 8046402950.74	|sum(rep(A)) = 194099339
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 7300	|Time taken =  17780.55000ms	|MFLOPS =  65689.756504	|sum: 8.047475e+09	|rms(A) = 8045462764.48	|sum(rep(A)) = 195385963
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 7400	|Time taken =  18142.02000ms	|MFLOPS =  65262.853861	|sum: 8.046541e+09	|rms(A) = 8044529111.76	|sum(rep(A)) = 195827947
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 7500	|Time taken =  18384.77100ms	|MFLOPS =  65271.414042	|sum: 8.045613e+09	|rms(A) = 8043601860.48	|sum(rep(A)) = 196307237
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 7600	|Time taken =  18624.91800ms	|MFLOPS =  65288.878050	|sum: 8.044692e+09	|rms(A) = 8042680882.94	|sum(rep(A)) = 197185602
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 7700	|Time taken =  18766.95400ms	|MFLOPS =  65647.307496	|sum: 8.043777e+09	|rms(A) = 8041766055.66	|sum(rep(A)) = 198022511
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 7800	|Time taken =  18997.12700ms	|MFLOPS =  65694.144172	|sum: 8.042868e+09	|rms(A) = 8040857259.13	|sum(rep(A)) = 198284984
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 7900	|Time taken =  19239.43900ms	|MFLOPS =  65698.381330	|sum: 8.041965e+09	|rms(A) = 8039954377.67	|sum(rep(A)) = 199351308
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 8000	|Time taken =  19608.74100ms	|MFLOPS =  65277.010900	|sum: 8.041068e+09	|rms(A) = 8039057299.26	|sum(rep(A)) = 199734883
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 8100	|Time taken =  19851.24900ms	|MFLOPS =  65285.564651	|sum: 8.040176e+09	|rms(A) = 8038165915.37	|sum(rep(A)) = 200074748
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 8200	|Time taken =  19972.90700ms	|MFLOPS =  65688.985584	|sum: 8.039290e+09	|rms(A) = 8037280120.81	|sum(rep(A)) = 200940139
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 8300	|Time taken =  20214.14100ms	|MFLOPS =  65696.583397	|sum: 8.038409e+09	|rms(A) = 8036399813.60	|sum(rep(A)) = 201476787
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 8400	|Time taken =  20457.85400ms	|MFLOPS =  65696.040259	|sum: 8.037534e+09	|rms(A) = 8035524894.82	|sum(rep(A)) = 201721540
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 8500	|Time taken =  20695.88200ms	|MFLOPS =  65713.555962	|sum: 8.036664e+09	|rms(A) = 8034655268.49	|sum(rep(A)) = 202352028
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 8600	|Time taken =  20946.48700ms	|MFLOPS =  65691.206358	|sum: 8.035800e+09	|rms(A) = 8033790841.45	|sum(rep(A)) = 203272316
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 8700	|Time taken =  21192.33800ms	|MFLOPS =  65684.116590	|sum: 8.034940e+09	|rms(A) = 8032931523.23	|sum(rep(A)) = 203945703
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 8800	|Time taken =  21432.36900ms	|MFLOPS =  65695.024194	|sum: 8.034086e+09	|rms(A) = 8032077225.98	|sum(rep(A)) = 204570296
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 8900	|Time taken =  21699.37300ms	|MFLOPS =  65624.015957	|sum: 8.033236e+09	|rms(A) = 8031227864.32	|sum(rep(A)) = 204806031
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 9000	|Time taken =  21925.79600ms	|MFLOPS =  65676.064851	|sum: 8.032391e+09	|rms(A) = 8030383355.27	|sum(rep(A)) = 205140247
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 9100	|Time taken =  22178.37200ms	|MFLOPS =  65649.543618	|sum: 8.031552e+09	|rms(A) = 8029543618.15	|sum(rep(A)) = 205881712
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 9200	|Time taken =  22414.15400ms	|MFLOPS =  65672.788721	|sum: 8.030716e+09	|rms(A) = 8028708574.51	|sum(rep(A)) = 206544105
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 9300	|Time taken =  22654.04100ms	|MFLOPS =  65683.645580	|sum: 8.029886e+09	|rms(A) = 8027878148.00	|sum(rep(A)) = 206728854
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 9400	|Time taken =  22895.99300ms	|MFLOPS =  65688.349922	|sum: 8.029060e+09	|rms(A) = 8027052264.34	|sum(rep(A)) = 207279802
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 9500	|Time taken =  23146.05900ms	|MFLOPS =  65669.926790	|sum: 8.028238e+09	|rms(A) = 8026230851.21	|sum(rep(A)) = 208231110
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 9600	|Time taken =  23379.24100ms	|MFLOPS =  65699.309913	|sum: 8.027421e+09	|rms(A) = 8025413838.20	|sum(rep(A)) = 208459392
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 9700	|Time taken =  23645.19500ms	|MFLOPS =  65637.014201	|sum: 8.026608e+09	|rms(A) = 8024601156.71	|sum(rep(A)) = 209237495
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 9800	|Time taken =  23871.08800ms	|MFLOPS =  65686.155570	|sum: 8.025799e+09	|rms(A) = 8023792739.94	|sum(rep(A)) = 209477056
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 9900	|Time taken =  24108.75300ms	|MFLOPS =  65702.278338	|sum: 8.024995e+09	|rms(A) = 8022988522.76	|sum(rep(A)) = 209832646
+Please enter number of timesteps = 
+Number of points = 16000000	|Number of timesteps = 10000	|Time taken =  24362.74000ms	|MFLOPS =  65674.058008	|sum: 8.024194e+09	|rms(A) = 8022188441.70	|sum(rep(A)) = 210139146

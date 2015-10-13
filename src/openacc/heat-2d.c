@@ -1,0 +1,159 @@
+/*
+ * Discretized 2D heat equation stencil with non periodic boundary conditions
+ * Adapted from Pochoir test bench
+ *
+ * Irshad Pananilath: irshad@csa.iisc.ernet.in
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/time.h>
+#include <math.h>
+#ifdef USE_LIKWID
+#include<likwid.h>
+#endif
+
+
+/*
+ * N is the number of points
+ * T is the number of timesteps
+ */
+#ifdef HAS_DECLS
+#include "decls.h"
+#else
+#define N 4000L
+//#define T 1000L
+#endif
+
+#define NUM_FP_OPS 10
+
+/* Define our arrays */
+double A[2][N+2][N+2];
+double total=0; double sum_err_sqr=0;
+int chtotal=0;
+int timeval_subtract(struct timeval *result, struct timeval *x, struct timeval *y) {
+    if (x->tv_usec < y->tv_usec) {
+        int nsec = (y->tv_usec - x->tv_usec) / 1000000 + 1;
+
+        y->tv_usec -= 1000000 * nsec;
+        y->tv_sec += nsec;
+    }
+
+    if (x->tv_usec - y->tv_usec > 1000000) {
+        int nsec = (x->tv_usec - y->tv_usec) / 1000000;
+
+        y->tv_usec += 1000000 * nsec;
+        y->tv_sec -= nsec;
+    }
+
+    result->tv_sec = x->tv_sec - y->tv_sec;
+    result->tv_usec = x->tv_usec - y->tv_usec;
+
+    return x->tv_sec < y->tv_sec;
+}
+
+int main(int argc, char * argv[]) {
+    long int t, i, j, k;
+    const int BASE = 1024;
+
+    // for timekeeping
+    int ts_return = -1;
+    struct timeval start, end, result;
+    double tdiff = 0.0;
+    
+    int T;
+
+    printf("Please enter number of timesteps = \n");
+    scanf("%d", &T);
+
+    printf("Number of points = %ld\t|Number of timesteps = %ld\t", N*N, T);
+
+    /* Initialization */
+    srand(42); // seed with a constant value to verify results
+
+    for (i = 0; i < N+2; i++) {
+        for (j = 0; j < N+2; j++) {
+            A[0][i][j] = 1.0 * (rand() % BASE);
+        }
+    }
+
+#ifdef USE_LIKWID
+#pragma omp parallel
+{
+LIKWID_MARKER_START("Compute_omp");
+}
+#endif
+
+    #pragma acc data create(A[0:2][0:N+2][0:N+2])
+    {
+        #pragma acc update device(A[0:2][0:N+2][0:N+2])
+
+#ifdef TIME
+    gettimeofday(&start, 0);
+#endif
+
+#pragma scop
+    for (t = 0; t < T; t++) {
+
+        #pragma acc kernels loop independent present(A[0:2][0:N+2][0:N+2])
+        for (i = 1; i < N+1; i++) {
+            #pragma acc loop independent
+            for (j = 1; j < N+1; j++) {
+                A[(t+1)%2][i][j] =   0.125 * (A[t%2][i+1][j] - 2.0 * A[t%2][i][j] + A[t%2][i-1][j])
+                                 + 0.125 * (A[t%2][i][j+1] - 2.0 * A[t%2][i][j] + A[t%2][i][j-1])
+                                 + A[t%2][i][j];
+            }
+        }
+    }
+#pragma endscop
+
+#ifdef TIME
+    gettimeofday(&end, 0);
+
+    ts_return = timeval_subtract(&result, &end, &start);
+    tdiff = (double)(result.tv_sec + result.tv_usec * 1.0e-6);
+
+    printf("|Time taken =  %7.5lfms\t", tdiff * 1.0e3);
+    printf("|MFLOPS =  %f\t", ((((double)NUM_FP_OPS * N *N *  T) / tdiff) / 1000000L));
+#endif
+
+        #pragma acc update host(A[0:2][0:N+2][0:N+2])
+
+	} // acc data create
+
+#ifdef USE_LIKWID
+#pragma omp parallel
+{
+LIKWID_MARKER_STOP("Compute_omp");
+}
+#endif
+
+
+#ifdef VERIFY
+    for (i = 1; i < N+1; i++) {
+        for (j = 1; j < N+1; j++) {
+            total+= A[T%2][i][j] ;
+        }
+    }
+    printf("|sum: %e\t", total);
+    for (i = 1; i < N+1; i++) {
+        for (j = 1; j < N+1; j++) {
+            sum_err_sqr += (A[T%2][i][j] - (total/N))*(A[T%2][i][j] - (total/N));
+        }
+    }
+    printf("|rms(A) = %7.2f\t", sqrt(sum_err_sqr));
+    for (i = 1; i < N+1; i++) {
+        for (j = 1; j < N+1; j++) {
+            chtotal += ((char *)A[T%2][i])[j];
+        }
+    }
+    printf("|sum(rep(A)) = %d\n", chtotal);
+#endif
+    return 0;
+}
+
+// icc -O3 -fp-model precise heat_1d_np.c -o op-heat-1d-np -lm
+// /* @ begin PrimeTile (num_tiling_levels=1; first_depth=1; last_depth=-1; boundary_tiling_level=-1;) @*/
+// /* @ begin PrimeRegTile (scalar_replacement=0; T1t3=8; T1t4=8; ) @*/
+// /* @ end @*/

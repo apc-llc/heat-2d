@@ -1,0 +1,8 @@
+Presentation template for High Performance Computing Course at the University of Lugano
+
+Use xelatex (not pdflatex!) as LaTeX processor, e.g.:
+
+/usr/local/texlive/2013/bin/x86_64-linux/xelatex -shell-escape -synctex=1 -interaction=nonstopmode %.tex
+
+Known to work best with 2013' TexLive release downloaded from web page (not shipped with Ubuntu/Fedora distros).
+
